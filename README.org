@@ -1,0 +1,11 @@
+* Knowledge Management System
+This is a way for me to gather all the "knowledge" I acquire from learning.
+It's generally free of my personal thoughts and tries to be as "true" as possible.
+For my general thoughts check my [[https://github.com/lawrencelogoh/zet][public zettelkasten]] or [[https://lawrencelogoh.com/blog][blog]].
+
+The general structure is as follows:
+
+- topic
+  - README.org
+  - subtopic.org
+  - subtopic2.org
