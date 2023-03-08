@@ -1,0 +1,13 @@
+* Links
+A collection of articles, essays, jokes and more.
+
+- [[http://catb.org/%7Eesr/faqs/hacking-howto.html][How to become a hacker]]
+- [[http://metamodular.com/Common-Lisp/lispos.html][Linux is not windows]]
+- [[http://metamodular.com/Common-Lisp/lispos.html][Lisp Operating System]]
+- [[https://ckarchive.com/b/75u7h8hkk9g9e][The Imperfectionist: It's worse than you think]]
+- [[https://github.com/97-things/97-things-every-programmer-should-know/blob/master/en/SUMMARY.md][97 things every programmer should know]]
+- [[https://meteuphoric.com/2014/03/25/how-to-trade-money-and-time/][How to trade money and time]]
+- [[https://milan.cvitkovic.net/writing/things_youre_allowed_to_do/][Things you're allowed to do]]
+- [[https://steve-yegge.blogspot.com/2010/12/haskell-researchers-announce-discovery.html][Haskell researchers announce discovery of industry programmer who gives a shit]]
+- [[https://web.stanford.edu/class/cs81n/command.txt][In the beginning was the command line]]
+- [[https://www.mit.edu/people/dpolicar/writing/prose/text/thinkingMeat.html][Thinking Meat]]
