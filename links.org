@@ -1,10 +1,12 @@
 * Links
-A collection of articles, essays, jokes and more.
+A collection of books, articles, jokes and more.
 
-- [[http://catb.org/%7Eesr/faqs/hacking-howto.html][How to become a hacker]]
+- [[http://catb.org/~esr/faqs/hacker-howto.html][How to become a hacker]]
+- [[http://catb.org/%7Eesr/faqs/hacking-howto.html][How to learn hacking]]
 - [[http://metamodular.com/Common-Lisp/lispos.html][Linux is not windows]]
 - [[http://metamodular.com/Common-Lisp/lispos.html][Lisp Operating System]]
 - [[https://ckarchive.com/b/75u7h8hkk9g9e][The Imperfectionist: It's worse than you think]]
+- [[https://protesilaos.com/books/2021-07-19-walking-away/][On walking(away)]]
 - [[https://github.com/97-things/97-things-every-programmer-should-know/blob/master/en/SUMMARY.md][97 things every programmer should know]]
 - [[https://meteuphoric.com/2014/03/25/how-to-trade-money-and-time/][How to trade money and time]]
 - [[https://milan.cvitkovic.net/writing/things_youre_allowed_to_do/][Things you're allowed to do]]

@@ -9,3 +9,5 @@ The general structure is as follows:
   - README.org
   - subtopic.org
   - subtopic2.org
+
+I hope this of some use to you :)
