@@ -23,8 +23,5 @@ Think of this as the thing that allows you to see the scene.
 - [[https://threejs.org/docs/][ThreeJS Docs]]
 
 
------
-
-[[https://github.com/lawrencelogoh/kms/faq.org][FAQ]]
 
 

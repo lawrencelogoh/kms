@@ -19,4 +19,4 @@ I hope this of some use to you :)
 
 -----
 
-[[https://github.com/lawrencelogoh/kms/faq.org][FAQ]]
+[[https://github.com/lawrencelogoh/kms/blob/master/faq.org][FAQ]]
