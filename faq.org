@@ -1,0 +1,7 @@
+* FAQ
+** "You're wrong about x 🤬"
+Submit a pull request and correct me.
+** "You're not 100% correct about x"
+My goal is to provide information(mostly to myself) that is useful.
+If you can see a way for it to be 100% correct and still useful, submit
+a pull request.

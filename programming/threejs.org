@@ -1,0 +1,30 @@
+* ThreeJS
+[[https://threejs.org][ThreeJS]] is a library that builds on top of [[https://en.wikipedia.org/wiki/WebGL][WebGL]] to make it easy to get
+3D content on a webpage.
+
+* The Basics
+There are three main things you need to understand before you begin
+working with ThreeJS.
+- The Renderer
+- The Scene
+- The Camera
+
+** The Renderer
+This is the thing that does the drawing on the screen.
+
+** The Scene
+You can think of this as the environment where your objects will be
+rendered.
+
+** Camera
+Think of this as the thing that allows you to see the scene.
+
+* Resources
+- [[https://threejs.org/docs/][ThreeJS Docs]]
+
+
+-----
+
+[[https://github.com/lawrencelogoh/kms/faq.org][FAQ]]
+
+
