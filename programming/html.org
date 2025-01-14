@@ -2,6 +2,9 @@
 HTML stands for HyperText Markup Language.
 It's the standard markup language for displaying content on the web.
 
+** Prerequisites
+- The ability to read and understand English.
+
 ** Elements
 HTML documents are made up of elements.
 There are exceptions but generally an element is made up of an opening
@@ -131,18 +134,34 @@ This is a comment
 
 #+end_src
 
+To view this file, save it in a document ending in =.html= and open it
+with your web browser.
+
+If you're on Windows you can use notepad, just make sure to change file
+type from .txt to "All Files" or something like that. While you're at it
+consider using [[https://linuxmint.com/][a real operating system]].
+
 If you don't understand something, look it up in a search engine or
 better yet, look at [[https://html.spec.whatwg.org/multipage/][the spec]].
 
 [[https://developer.mozilla.org/en-US/][MDN]] is pretty good too.
+
+** Metadata
+/Coming soon/
 ** Semantic HTML
 /Coming soon/
 ** Conclusion
-There's a lot more to HTML than meets the eye.
-Checkout the resources below to learn more.
+That's it, you now know HTML.
+Now try creating a simple personal website for yourself.
+It will not be very pretty but just try.
+After that, learn [[css.org][CSS]] to make it look pretty.
+
+
+Checkout the resources below and write some HTML to learn more.
 * Resources
 - https://web.dev/learn/html/
-
+- https://developer.mozilla.org/en-US/
+- https://html.spec.whatwg.org/multipage/
 
 
 
