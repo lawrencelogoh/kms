@@ -16,8 +16,54 @@ A standard element looks like this:
 /<tag> and </tag> are not an actual tags, I'm just using them as an
 example/
 
+*** Void elements
+These are elements that do not have closing tags.
+Some examples are:
+- =img=: This is for displaying images
+  #+begin_src html
+  <img src="picture_of_kitty.jpg" alt="Picture of a cute kitten" />
+  #+end_src
+- =link=: This is for linking CSS files([[css.org][What is CSS?]])
+  #+begin_src html
+  <link rel="stylesheet" href="styles.css">
+  #+end_src
+*** Replaced elements
+These are elements whose contents are controlled by an external
+resource.
+Some examples are:
+- =video=: This is for displaying videos
+  #+begin_src html
+  <video width="640" height="480" controls>
+    <source src="funny_video.mp4" type="video/mp4">
+    <source src="funny_videok.ogg" type="video/ogg">
+    Your browser does not support the video tag.
+  </video> 
+  #+end_src
+- =img=: You already know what this does :) 
+
+*** Non-replaced elements
+Self-explanatory.
+
+Some examples are:
+- =p=: This is used to describe a paragraph
+  #+begin_src html
+  <p>
+    Imagine lots of words here
+  </p>
+  #+end_src
+- =h1=: This is used to describe a level one heading(There's also h2,h3...h6)
+  #+begin_src html
+  <h1>Level One Heading<h1>
+  #+end_src
+
 ** A Standard HTML Document
 #+begin_src html
+<!-- 
+This is a comment
+- Comments are ignored by the browser and do not affect the rendering of the webpage.
+- Use comments to describe code, provide context, or leave notes for developers.
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -84,6 +130,11 @@ example/
 </html>
 
 #+end_src
+
+If you don't understand something, look it up in a search engine or
+better yet, look at [[https://html.spec.whatwg.org/multipage/][the spec]].
+
+[[https://developer.mozilla.org/en-US/][MDN]] is pretty good too.
 ** Semantic HTML
 /Coming soon/
 ** Conclusion
@@ -94,4 +145,4 @@ Checkout the resources below to learn more.
 
 
 
-/Last updated on 14-01-2025/ 
+

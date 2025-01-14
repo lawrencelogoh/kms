@@ -1,9 +1,14 @@
 * Knowledge Management System
-This is a way for me to gather all the "knowledge" I acquire from learning.
+This is a way for me to gather some of the "knowledge" I acquire from learning.
 It's generally free of my personal thoughts and tries to be as "true"
 and "evergreen" as possible.
 It's mostly written for myself but if you see something incorrect, feel
 free to create an issue or submit a pull request.
+
+Another thing you might notice is that I try to stick to the
+fundamentals and leave the rest to you.
+
+I do this because I believe that learning happens when you do the rest.
 
 For my general thoughts check my [[https://github.com/lawrencelogoh/zet][public zettelkasten]] or [[https://lawrencelogoh.com/blog][blog]].
 
