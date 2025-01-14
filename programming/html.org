@@ -1,0 +1,97 @@
+* HTML
+HTML stands for HyperText Markup Language.
+It's the standard markup language for displaying content on the web.
+
+** Elements
+HTML documents are made up of elements.
+There are exceptions but generally an element is made up of an opening
+tag, the content and a closing tag.
+A tag is just some text in between angle brackets (=<= =>=).
+An opening tag looks like =<tag>= and a closing tag looks like =</tag>=.
+
+A standard element looks like this:
+#+begin_src html
+<tag>content</tag>
+#+end_src
+/<tag> and </tag> are not an actual tags, I'm just using them as an
+example/
+
+** A Standard HTML Document
+#+begin_src html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A standard HTML document">
+    <title>HTML Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to HTML</h1>
+    </header>
+
+    <main>
+        <section id="home" aria-labelledby="home-heading">
+            <h2 id="home-heading">Home</h2>
+            <p>This is the home section of the webpage, showcasing semantic HTML practices.</p>
+        </section>
+
+        <section id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">About</h2>
+            <p>Semantic HTML provides meaning to web elements and improves accessibility and SEO.</p>
+        </section>
+
+        <section id="services" aria-labelledby="services-heading">
+            <h2 id="services-heading">Services</h2>
+            <ul>
+                <li>Web Development</li>
+                <li>SEO Optimization</li>
+                <li>Content Strategy</li>
+            </ul>
+        </section>
+
+        <section id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact</h2>
+            <form action="/submit" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Lawrence Logoh. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+#+end_src
+** Semantic HTML
+/Coming soon/
+** Conclusion
+There's a lot more to HTML than meets the eye.
+Checkout the resources below to learn more.
+* Resources
+- https://web.dev/learn/html/
+
+
+
+/Last updated on 14-01-2025/ 
