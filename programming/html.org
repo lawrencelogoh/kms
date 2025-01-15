@@ -147,9 +147,81 @@ better yet, look at [[https://html.spec.whatwg.org/multipage/][the spec]].
 [[https://developer.mozilla.org/en-US/][MDN]] is pretty good too.
 
 ** Metadata
-/Coming soon/
+Metadata is simply data about data. In the case of HTML, it gives your
+browser more information about the HTML document.
+
+Generally, everything in the =<head>= tag is metadata but there's also a
+specific =meta= tag.
+
+Refer to the standard HTML document above to see how it looks like.
+
+Read more about metadata [[https://web.dev/learn/html/metadata][here]].
+
 ** Semantic HTML
 /Coming soon/
+Semantics refers to meaning in languages.
+Semantic HTML refers to HTML that uses tags that are more meaningful. They also happen
+to be good for accessibility.
+
+Compare the two snippets below.
+
+*** Non-semantic HTML
+#+begin_src html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Non-Semantic HTML Example</title>
+</head>
+<body>
+    <div id="header">
+        <h1>Welcome to My Website</h1>
+    </div>
+    <div id="main-content">
+        <div class="section">
+            <h2>About Us</h2>
+            <p>We provide high-quality web development services.</p>
+        </div>
+        <div class="section">
+            <h2>Services</h2>
+            <p>Our services include web design, SEO, and more.</p>
+        </div>
+    </div>
+    <div id="footer">
+        <p>Contact us at info@example.com</p>
+    </div>
+</body>
+</html>
+#+end_src
+
+*** Semantic HTML
+#+begin_src html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Semantic HTML Example</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+    <main>
+        <section>
+            <h2>About Us</h2>
+            <p>We provide high-quality web development services.</p>
+        </section>
+        <section>
+            <h2>Services</h2>
+            <p>Our services include web design, SEO, and more.</p>
+        </section>
+    </main>
+    <footer>
+        <p>Contact us at info@example.com</p>
+    </footer>
+</body>
+</html>
+#+end_src
+
+Read more about [[https://web.dev/learn/html/semantic-html][semantic HTML]] here.
 ** Conclusion
 That's it, you now know HTML.
 Now try creating a simple personal website for yourself.
@@ -157,7 +229,7 @@ It will not be very pretty but just try.
 After that, learn [[css.org][CSS]] to make it look pretty.
 
 
-Checkout the resources below and write some HTML to learn more.
+Checkout the resources below and *write some HTML* to learn more.
 * Resources
 - https://web.dev/learn/html/
 - https://developer.mozilla.org/en-US/
