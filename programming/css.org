@@ -21,9 +21,9 @@ a box. The boxes are made up of four parts.
    This is the space between the box and other boxes.
 
 Here's a helpful image:
-#+CAPTION:Charles Calvert, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
-[[https://upload.wikimedia.org/wikipedia/commons/e/ed/Box-model.svg]]
 
+[[https://upload.wikimedia.org/wikipedia/commons/e/ed/Box-model.svg]]
+/Charles Calvert, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons/
 ** Syntax
 The general syntax is very simple.
 #+begin_src css
