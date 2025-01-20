@@ -1,2 +1,37 @@
 * CSS
-/Coming soon/
+CSS stands for Cascading Style Sheets. It is a style sheet language used
+to style HTML pages. It can be used with other markup languages but it
+is mostly used with HTML. 
+
+[[html.org][What is HTML?]]
+
+** Prerequisites
+- Basic HTML
+** The Box Model
+The box model is a mental model that proposes that every HTML element is
+a box. The boxes are made up of four parts.
+1. Content
+   This is self explanatory. 
+   In the case of a =p= element the content is the text.
+2. Border
+   This refers to the edges of the box.
+3. Padding
+   This is the space between the content and the border
+4. Margin
+   This is the space between the box and other boxes.
+
+Here's a helpful image:
+#+CAPTION:Charles Calvert, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
+[[https://upload.wikimedia.org/wikipedia/commons/e/ed/Box-model.svg]]
+
+** Syntax
+The general syntax is very simple.
+#+begin_src css
+selector { property: value; }
+#+end_src
+/This isn't actual CSS/
+
+*** Selector
+
+* Resources
+- https://web.dev/learn/css/
