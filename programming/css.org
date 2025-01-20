@@ -23,6 +23,8 @@ a box. The boxes are made up of four parts.
 Here's a helpful image:
 
 [[https://upload.wikimedia.org/wikipedia/commons/e/ed/Box-model.svg]]
+
+
 /Charles Calvert, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons/
 ** Syntax
 The general syntax is very simple.
@@ -31,7 +33,11 @@ selector { property: value; }
 #+end_src
 /This isn't actual CSS/
 
-*** Selector
+*** Selectors
+
+*** Properties
+
+*** Values
 
 * Resources
 - https://web.dev/learn/css/
