@@ -14,3 +14,4 @@ A collection of books, articles, jokes and more.
 - [[https://web.stanford.edu/class/cs81n/command.txt][In the beginning was the command line]]
 - [[https://www.mit.edu/people/dpolicar/writing/prose/text/thinkingMeat.html][Thinking Meat]]
 - [[https://www.bedelstein.com/post/mcmaster-carr][The Smartest Website You Haven't Heard of]]
+- [[https://alifeengineered.substack.com/p/how-to-be-a-force-multiplier][How to be a force multiplier]]
